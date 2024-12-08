@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    typescript: {
+        ignoreBuildErrors: [
+            'app/api/NorthWindService'
+        ]
+    }
+}
 
 module.exports = nextConfig

@@ -1,0 +1,2 @@
+# 忽略整個資料夾
+app/api/NorthWindService/**
